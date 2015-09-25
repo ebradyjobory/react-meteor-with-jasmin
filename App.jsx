@@ -9,7 +9,6 @@ App = React.createClass({
       hideCompleted: false
     }
   },
-
   // Loads items from the Tasks collection and puts them on this.data.tasks
   getMeteorData() {
     let query = {};
@@ -53,7 +52,7 @@ App = React.createClass({
 
   toggleHideCompleted() {
     this.setState({
-      hideCompleted: ! this.state.hideCompleted
+      hideCompleted: !this.state.hideCompleted
     });
   },
 
